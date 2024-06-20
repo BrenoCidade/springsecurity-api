@@ -15,6 +15,8 @@ public class Message {
     @Column(name = "message_id")
     private Long messageId;
 
+    @ManyToOne
+    @JoinColumn(name = "user_id")
     private User user;
 
     private String Content;
