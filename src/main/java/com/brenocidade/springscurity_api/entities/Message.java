@@ -56,3 +56,4 @@ public class Message {
         this.creationTimestamp = creationTimestamp;
     }
 }
+
